@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楊茂榛的個人介紹</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .skill-item {
+            background-color: #ffcc00;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .awards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .award-item {
+            background-color: #e0e0e0;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .award-item:hover{
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>楊茂榛的個人介紹</h1>
+    </header>
+
+    <nav>
+        <a href="#about">關於我</a>
+        <a href="#skills">經歷與技能</a>
+        <a href="#awards">得獎紀錄</a>
+    </nav>
+
+    <section id="about">
+        <h2>關於我</h2>
+        <p>我叫楊茂榛，個性熱心助人，對於工作一向細心負責，態度認真。我熱愛與人互動，並且總是願意為他人提供幫助。在團隊合作中，我注重細節，力求將每一件事做到最好。希望能夠在未來的工作中，持續發揮我的專長，與大家一起創造更好的成果。</p>
+    </section>
+
+    <section id="skills">
+        <h2>經歷與技能</h2>
+        <div class="skills">
+            <div class="skill-item">網頁設計</div>
+            <div class="skill-item">3D繪圖</div>
+            <div class="skill-item">協助製作學校社團網頁</div>
+            <div class="skill-item">在學校咖啡店製作<br>簡易餐系統</div>
+        </div>
+    </section>
+
+    <section id="awards">
+        <h2>得獎紀錄</h2>
+        
+        <div class="awards">
+            <a href="https://photos.app.goo.gl/bg8gDTuGpBFLraQ68"><div class="award-item">畢業生服務表現優良獎</div></a>
+            <a href="https://photos.app.goo.gl/jjpNnaLUuQTAteox9"><div class="award-item">2024曼谷國際發明展銅牌</div></a>
+            <a href="https://photos.app.goo.gl/WYNaoi5wkUtNkNCj9"><div class="award-item">2023第10屆高雄國際發明暨設計展金牌</div></a>
+            <a href="https://photos.app.goo.gl/yAgyWZqJS7hYVN9NA"><div class="award-item">2022年幸福科技創新創業競賽決賽入圍</div></a>
+        </div>
+    </section>
+    <br><br><br>
+    <footer>
+        <p>&copy; 2024 楊茂榛.</p>
+    </footer>
+</body>
+
+</html>
